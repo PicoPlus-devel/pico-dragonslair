@@ -183,7 +183,6 @@ int8_t g_settings_visibility_dlair[MOPT_COUNT] = {
     [MOPT_MENU_OVERSCAN] = 0,                      // shown regardless: listed below the menu colors
     [MOPT_GENESIS_PAD] = 0,                        // Genesis
     [MOPT_NES_PALETTE] = 0,                        // NES
-    [MOPT_HSTX_CLOCK_FIX] = 0,                     // only matters at 378 MHz and up
     [MOPT_BUTTON_LAYOUT] = 0,                      // NES
     [MOPT_TATE_MODE] = 0,                          // a horizontal game
 };
