@@ -18,6 +18,7 @@ An emulator of the laserdisc arcade game Dragon's Lair (Cinematronics, 1983) for
 
 ## v0.1.2
 
+- With a USB keyboard, Enter selects and Esc goes back in the menus.
 - Fixed: on the Adafruit Fruit Jam and other boards with PIO-USB, USB controllers were often not found at start-up.
 
 ## v0.1.1
