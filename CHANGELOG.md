@@ -16,6 +16,12 @@ An emulator of the laserdisc arcade game Dragon's Lair (Cinematronics, 1983) for
 
 # Changelog
 
+## v0.1.3
+
+- NES and SNES controllers on the controller ports are now read with the same timing as a real console, on all boards. Thanks to @javavi.
+- Under pico-bootLoader, the settings menu entry that goes back to the bootloader is now called **Return to boot loader**.
+- Fixed: on boards with HSTX video, with *Display Mode* set to DVI, the picture could randomly drop out, and now and then a single line was shown shifted to the right for one frame.
+
 ## v0.1.2
 
 - With a USB keyboard, Enter selects and Esc goes back in the menus.
