@@ -109,10 +109,12 @@ pico-dragonslair runs on every RP2350 configuration of this family. It requires 
 | 13 | Murmulator M2 | HSTX | `picoDragonsLair_MurmulatorM2_arm.uf2` |
 | 14 | Adafruit Feather RP2350 with HSTX Port and TLV320DAC3100 I2S DAC | HSTX | `picoDragonsLair_AdafruitFeatherRP2350_TLV320DAC3100_arm_piousb.uf2` |
 | 15 | Olimex RP2040-PICO-PC with a Raspberry Pi Pico 2 | HSTX | `picoDragonsLair_OlimexPicoPC_arm.uf2` |
+| 17 | Pico Computer 3 | HSTX | `picoDragonsLair_PicoComputer3_arm.uf2` |
+| 18 | PCB for the Waveshare RP2350-PiZero | HSTX | `picoDragonsLair_WaveShareRP2350PiZeroLiuPCB_arm_piousb.uf2` |
 
 For wiring and assembly instructions, see the setup sections of the [pico-infonesPlus README](https://github.com/PicoPlus-devel/pico-infonesPlus#setup). To flash a board, hold BOOTSEL while connecting it over USB, then copy the `.uf2` file onto the USB drive that appears.
 
-Audio is sent over HDMI. Boards with an I2S DAC (configurations 8, 13 and 14) can use it instead through the *External Audio* setting; on the Fruit Jam, plugging in headphones selects it automatically. Configuration 15 also plays the sound on its PWM audio jack.
+Audio is sent over HDMI. Boards with an I2S DAC (configurations 8, 13, 14, 17 and 18) can use it instead through the *External Audio* setting; on the Fruit Jam, plugging in headphones selects it automatically. Configuration 15 also plays the sound on its PWM audio jack.
 
 ***
 
@@ -148,7 +150,7 @@ The frame rate display (START + A, or *FPS Overlay* in the settings menu) shows 
 
 ## Settings menu
 
-**SELECT + START** opens the settings menu during the game. It offers the screen mode with or without scanlines, the FPS overlay, audio on/off, the external audio output, the Fruit Jam volume and VU meter, *Reset Game*, the controller test, BOOTSEL mode and USB drive mode. When started from pico-bootLoader, it also offers *Return to emulator selection menu*.
+**SELECT + START** opens the settings menu during the game. It offers the screen mode with or without scanlines, the FPS overlay, audio on/off, the external audio output, the Fruit Jam volume and VU meter, *Reset Game*, the controller test, BOOTSEL mode and USB drive mode. When started from pico-bootLoader, it also offers *Return to boot loader*.
 
 The settings are stored on the SD card in `/settings_ARC.dat`, a file shared by all arcade games of this family. The game has no save states, and high scores are not kept after a reset or power cycle.
 
