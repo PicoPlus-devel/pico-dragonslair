@@ -16,6 +16,10 @@ An emulator of the laserdisc arcade game Dragon's Lair (Cinematronics, 1983) for
 
 # Changelog
 
+## Next release
+
+- Built with Pico SDK 2.3.1. This leaves a little more memory free, about 4.4 KB.
+
 ## v0.2
 
 - The game now runs on the [Pico Computer 3](https://github.com/UKTailwind/Pico-Computer-3): HDMI, sound through HDMI or the audio jack, USB controllers, and NES or SNES controllers and a Wii Classic controller on the I/O header. The pin assignment may still change. See [Pico Computer 3](https://github.com/PicoPlus-devel/pico-infonesPlus#pico-computer-3) in the pico-infonesPlus readme. Thanks to @javavi.
