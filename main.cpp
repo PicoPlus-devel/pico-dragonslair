@@ -41,6 +41,9 @@
 #endif
 
 #include "FrensHelpers.h"
+// pico-bootLoader attract mode may start this application when its set is on the card
+// (bootloader builds only, see pico_shared/attract.h).
+FRENS_ATTRACT_DIRS("/roms/arcade/DLAIR");
 #include "FrensFonts.h"
 #include "gamepad.h"
 #include "menu.h"
