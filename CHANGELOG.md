@@ -18,6 +18,7 @@ An emulator of the laserdisc arcade game Dragon's Lair (Cinematronics, 1983) for
 
 ## Next release
 
+- **Attract mode.** pico-bootLoader's new attract mode can now start the game when its data is on the card; it then plays its own demo. Press any button to play yourself.
 - Built with Pico SDK 2.3.1. This leaves a little more memory free, about 4.4 KB.
 
 ## v0.2
